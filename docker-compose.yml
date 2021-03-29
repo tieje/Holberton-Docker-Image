@@ -1,0 +1,14 @@
+version: '3.9'
+
+services: 
+  holberton:
+    platform: linux/x86_64
+    build: ./
+    image: mysql:latest
+    environment:
+      MYSQL_ROOT_PASSWORD: mysql
+    volumes:
+      - holberton_data:/Users/thomasfrancis/Documents/holberton/docker
+
+volumes:
+  holberton_data:
