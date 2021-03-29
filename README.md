@@ -21,7 +21,7 @@ Use "exit" to get back to your command line.
 
 exit
 
-Do NOT use the "docker-compose down" command because it will delete all of your state.
+Do NOT use the "docker-compose down" command because it will delete all of your state. (--build flag does not delete state)
 Stopping the container is fine.
 Starting the container is fine.
 There are some shortcut icons on the Docker GUI client to perform these common functions.
