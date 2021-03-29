@@ -1,3 +1,12 @@
+First things first:
+
+- Update volumes in docker-compose.yml file.
+    There are two volumes lines but you only need to update the one that looks the lines below.
+        volumes:
+          - holberton_data:/Users/thomasfrancis/Documents/holberton/docker
+    Everything after the colon is the folder path that you cloned this repo in.
+    Include the repo folder name itself. I don't because I made this thing.
+
 
 For M1 Mac users install docker from here:
 
