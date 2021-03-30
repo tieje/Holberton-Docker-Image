@@ -1,11 +1,19 @@
+The main idea for this project was for Docker to be a viable alternative to Vagrant for Linux emulation.
+It's just a prototype, but it is usable.
+
+Vagrant and other Linux emulators do not work on M1 chip macOS.
+
+To get things set up, read the following:
+
 First things first:
 
-- Update volumes in docker-compose.yml file.
+Update volumes in docker-compose.yml file.
     There are two volumes lines but you only need to update the one that looks the lines below.
-        volumes:
-          - holberton_data:/Users/thomasfrancis/Documents/holberton/docker
-    Everything after the colon is the folder path that you cloned this repo in.
-    Include the repo folder name itself. I don't because I made this thing.
+volumes:
+holberton_data:/Users/thomasfrancis/Documents/holberton/docker
+
+Everything after the colon is the folder path that you cloned this repo in.
+Include the repo folder name itself. I don't because I made this thing.
 
 
 For M1 Mac users install docker from here:
